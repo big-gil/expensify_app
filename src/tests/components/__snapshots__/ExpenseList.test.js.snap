@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense List Test 1 - Expense List 1`] = `
+<div>
+  <h1>
+    Expense List
+  </h1>
+  <ExpenseListItem
+    amount={14500}
+    createDate={604800000}
+    descripton="Water Bill"
+    id={
+      Any {
+        "$$typeof": Symbol(jest.asymmetricMatcher),
+        "sample": [Function],
+      }
+    }
+    key="Any"
+    note="note1"
+  />
+  <ExpenseListItem
+    amount={500000}
+    createDate={-259200000}
+    descripton="Gas Bill"
+    id={
+      Any {
+        "$$typeof": Symbol(jest.asymmetricMatcher),
+        "sample": [Function],
+      }
+    }
+    key="Any"
+    note="note2"
+  />
+  <ExpenseListItem
+    amount={122000}
+    createDate={172800000}
+    descripton="Rent"
+    id="123abc"
+    key="123abc"
+    note="note3"
+  />
+</div>
+`;
+
+exports[`Expense List Test 2 - No Expenses To List 1`] = `
+<div>
+  <h1>
+    Expense List
+  </h1>
+  <p>
+    No Expenses
+  </p>
+</div>
+`;

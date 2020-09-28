@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense List Item Test 1 - List Expenses 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/123abc"
+  >
+    <h3 />
+  </Link>
+  <p>
+    122000
+     - 
+    01/02/1970
+  </p>
+</div>
+`;
